@@ -28,6 +28,7 @@ nav a{text-decoration:none;color:var(--ink);font-weight:600}
 .gallery img{width:100%;height:260px;object-fit:cover;border-radius:var(--r);border:5px solid #fff;box-shadow:0 4px 12px rgba(90,60,160,.15)}
 .gallery{grid-auto-flow:dense}
 .gallery img.tall{grid-row:span 2;height:534px}
+.groep{width:100%;max-width:900px;margin:0 auto 24px;border-radius:var(--r);border:6px solid #fff;box-shadow:0 4px 12px rgba(90,60,160,.15)}
 .gallery.small{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
 .gallery.small img{height:220px}
 figure{margin:0;text-align:center}figcaption{font-family:Fredoka;margin-top:4px}
