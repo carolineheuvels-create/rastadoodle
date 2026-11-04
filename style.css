@@ -29,9 +29,11 @@ nav a{text-decoration:none;color:var(--ink);font-weight:600}
 .gallery{grid-auto-flow:dense}
 .gallery img.tall{grid-row:span 2;height:534px}
 .groep{width:100%;max-width:900px;margin:0 auto 24px;border-radius:var(--r);border:6px solid #fff;box-shadow:0 4px 12px rgba(90,60,160,.15)}
-.gallery.small{grid-template-columns:repeat(4,1fr);gap:28px;max-width:860px;margin:0 auto}
-.gallery.small img{height:auto;aspect-ratio:1;border-radius:50%;border:6px solid #fff;object-position:50% 45%}
-.gallery.small figcaption{font-size:1.15rem;margin-top:8px}
+.gallery.small{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+.gallery.small img{height:220px}
+.gallery.rond{grid-template-columns:repeat(4,1fr);gap:28px;max-width:860px;margin:0 auto}
+.gallery.rond img{height:auto;aspect-ratio:1;border-radius:50%;border:6px solid #fff;object-position:50% 45%}
+.gallery.rond figcaption{font-size:1.15rem;margin-top:8px}
 figure{margin:0;text-align:center}figcaption{font-family:Fredoka;margin-top:4px}
 .sub{text-align:center;margin-top:50px;font-size:1.5rem}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
@@ -69,8 +71,8 @@ footer img{border-radius:50%;background:#000}
   .gallery{grid-template-columns:1fr 1fr}
   .gallery img{height:190px}
   .gallery img.tall{height:394px}
-  .gallery.small{grid-template-columns:1fr 1fr;gap:20px}
-  .gallery.small img{height:auto}
+  .gallery.rond{grid-template-columns:1fr 1fr;gap:20px}
+  .gallery.rond img{height:auto}
   .hero-img{max-width:320px;margin:0 auto}
   .hero{text-align:center}
 }
