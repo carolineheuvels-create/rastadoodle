@@ -29,6 +29,7 @@ nav a{text-decoration:none;color:var(--ink);font-weight:600}
 .gallery{grid-auto-flow:dense}
 .gallery img.tall{grid-row:span 2;height:534px}
 .groep{width:100%;max-width:900px;margin:0 auto 24px;border-radius:var(--r);border:6px solid #fff;box-shadow:0 4px 12px rgba(90,60,160,.15)}
+#dubbel .groep{max-width:640px;margin-top:20px}
 .gallery.small{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
 .gallery.small img{height:220px}
 .gallery.rond{grid-template-columns:repeat(4,1fr);gap:28px;max-width:860px;margin:0 auto}
